@@ -2,7 +2,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
 from webdriverfactory import get_driver
-driver = get_driver("edge")
+driver = get_driver("chrome")
 
 driver.get("http://www.python.org")
 assert "Python" in driver.title
